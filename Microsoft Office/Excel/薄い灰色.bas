@@ -1,9 +1,8 @@
-Attribute VB_Name = "薄い灰色"
 Option Explicit
 
 Sub ApplyCustomCellStyle1()
     On Error GoTo ErrorHandler
-    Selection.Style = "薄い灰色"
+    Selection.Interior.Color = RGB(242, 242, 242)
     Exit Sub
 
 ErrorHandler:
